@@ -1,0 +1,34 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "title": "Cashback",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "Weight loss",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "Products",
+      "status": false
+    },
+    {
+      "id": 4,
+      "title": "Rates",
+      "status": false
+    },
+    {
+      "id": 5,
+      "title": "Payment",
+      "status": false
+    },
+    {
+      "id": 6,
+      "title": "Storage",
+      "status": false
+    }
+  ]
+}
