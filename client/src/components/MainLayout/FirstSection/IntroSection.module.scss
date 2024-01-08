@@ -1,0 +1,72 @@
+.intro {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	.intro__container {
+		margin: 0 auto;
+		width: 1200px;
+		height: 450px;
+		background-color: #b0cc0d;
+		border-radius: 55px;
+		position: relative;
+		.intro__information {
+			position: absolute;
+			left: 102px;
+			top: 55px;
+			width: 400px;
+			.intro__h1 {
+				font-weight: 700;
+				font-size: 65px;
+				line-height: 65px;
+				color: #ffff;
+			}
+			.intro__span {
+				display: inline-block;
+				margin-top: 20px;
+
+				font-size: 25px;
+				font-weight: 400;
+				line-height: 59px;
+			}
+			.intro__button {
+				margin-top: 20px;
+				width: 202px;
+				height: 55px;
+				border-radius: 32px;
+				color: white;
+				font-size: 16px;
+				background-color: #ffa800;
+				border: 1px solid #ffa800;
+			}
+		}
+	}
+	.intro__image {
+		position: absolute;
+		width: 886px;
+		height: 577px;
+		right: -69px;
+		top: 9px;
+		// transform: rotate(180deg);
+	}
+	.intro__image__leaves__1 {
+		position: absolute;
+		// transform: rotate(6deg);
+		bottom: -135px;
+		left: -90px;
+	}
+	.intro__image__leaves__2 {
+		position: absolute;
+		top: -120px;
+		left: 380px;
+	}
+	.intro__image__leaves__3 {
+		position: absolute;
+		bottom: -65px;
+		left: 460px;
+	}
+	.intro__image__pepper__corns {
+		position: absolute;
+		right: -100px;
+		bottom: -140px;
+	}
+}

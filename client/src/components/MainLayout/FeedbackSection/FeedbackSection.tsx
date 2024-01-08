@@ -6,7 +6,7 @@ const FeedbackSection: React.FC = () => {
   return (
     <div className={style.feedback}>
       <div className={style.feedback__container}>
-        <img className={style.feedback__image} src="../../../assets/FeedbackIMG.png" alt="aboba" />
+        <img className={style.feedback__image} src={image} alt="tomatoes" />
         <div className={style.feedback__section}>
           <div className={style.feedback__desc}>
             <h3 className={style.feedbsck__title}>LET'S GET IN&nbsp;TOUCH</h3>
