@@ -98,5 +98,38 @@
         }
       ]
     }
+  ],
+  
+  "advantages": [
+    {
+      "id": "1",
+      "title": "We'll deliver it free of charge",
+      "description": "In a convenient 2-hour interval",
+      "svg": ""
+    },
+    {
+      "id": "2",
+      "title": "We’ll calculate calories",
+      "description": "It will be easy for you to control your diet",
+      "svg": ""
+    },
+    {
+      "id": "3",
+      "title": "We'll help you to save up to 20 hours ",
+      "description": "of free time a week for you",
+      "svg": ""
+    },
+    {
+      "id": "4",
+      "title": "Everything is ready, just warm it up",
+      "description": "We’ll bring you ready-made dishes",
+      "svg": ""
+    },
+    {
+      "id": "5",
+      "title": "Lorem ipsum dolor sit amet consectetur.",
+      "description": "Quisque sed nisi turpis enim. Amet blandit ut.",
+      "svg": ""
+    }
   ]
 }

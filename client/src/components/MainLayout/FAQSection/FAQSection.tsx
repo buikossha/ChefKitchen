@@ -11,8 +11,12 @@ const FAQSection: React.FC = () => {
 
   useEffect(() => {
     const getFaqInfo = async () => {
-      const response = await axios.get("http://localhost:3001/faq")
-      setFaq(response.data)
+      try {
+        const response = await axios.get("http://localhost:3001/faq")
+        setFaq(response.data)
+      } catch (err) {
+        console.log(err)
+      }
     }
     getFaqInfo();
   }, [])

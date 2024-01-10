@@ -12,6 +12,13 @@ export interface IFAQ {
   questions: IQuestions[]
 }
 
+export interface IAdvantage {
+  id: number,
+  title: string,
+  description: string,
+  svg: string
+}
+
 export interface IFeedbackFields {
   name: string,
   email: string,

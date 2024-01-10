@@ -1,0 +1,28 @@
+.ad__item {
+  display: flex;
+  flex-direction: column;
+  width: 183px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+
+  .ad__item__svg {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    background-color: #B0CC0D;
+    margin-bottom: 12px;
+  }
+
+  .ad__item__title {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .ad__ietm__desc {
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+}
