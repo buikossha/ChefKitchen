@@ -32,6 +32,7 @@
     font-size: 16px;
     background-color: #FFA800;
     border: 1px solid #FFA800;
+    transition: 0.3 ease;
   }
 
   .feedback__form__tg {
@@ -40,5 +41,28 @@
     background-color: #B0CC0D;
     border: 1px solid #B0CC0D;
     border-radius: 32px;
+    transition: 0.3s;
+
+    .feedback__form__tg__text {
+      display: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      width: 185px;
+      transition: 0.3s;
+
+    .feedback__form__tg__text {
+      display: inline;
+      position: relative;
+      left: 12px;
+      bottom: 9px;
+      transition: 0.4s;
+      }
+    }
   }
 }

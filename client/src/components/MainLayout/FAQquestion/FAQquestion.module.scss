@@ -1,0 +1,18 @@
+.faq__question {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #B0B0B0;
+  padding: 24px 0;
+
+  .faq__question__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .faq__question__answ {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
